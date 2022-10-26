@@ -10,7 +10,7 @@ public class Constructor {
       if (side <= 0) {
           throw new Exception("Не получилось создать квадрат. Длина стороны не может быть отрицательной");
       }
-      return new Square(side);
+      return new Square(side,side);
   }
 
   public static Rectangle createRectangle(double width, double height) throws Exception {
